@@ -41,7 +41,7 @@ var
 
 implementation
 
-uses Utest;
+//uses Utest;
 
 //uses
 //  Utest;
@@ -99,7 +99,7 @@ procedure TForm1.Button3Click(Sender: TObject);
 begin
 SavePictureDialog1.FileName:=FormatDateTime('yyyymmddhms',Now)+'.PNG';
 Image1.Picture.SaveToFile(SavePictureDialog1.FileName);
-Form2.Label1.caption := SavePictureDialog1.FileName;
+//Form2.Label1.caption := SavePictureDialog1.FileName;
 // SAVE PCTURE WITH DINAMIC LOCATION :
 // Image1.Picture.SaveToFile('foto\'+SavePictureDialog1.FileName);
 end;

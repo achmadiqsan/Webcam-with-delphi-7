@@ -102,6 +102,7 @@ object Form1: TForm1
   object FilterGraph1: TFilterGraph
     Mode = gmCapture
     GraphEdit = True
+    LinearVolume = True
     Left = 440
     Top = 24
   end
